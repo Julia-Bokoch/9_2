@@ -179,7 +179,7 @@ z-index: 0;
 }
 
 .s-left:hover {
-    opacity: .8;
+   
     transform: scale(1.2);
 }
 
@@ -206,7 +206,7 @@ z-index: 0;
 }
 
 .s-right:hover {
-    opacity: .8;
+   
     transform: scale(1.2);
 }
 
