@@ -14,13 +14,10 @@ body, html {
 body{
      background: white;
     font-family: 'Jost';
-    z-index: 1;
 }
 .log {
     left: 50px;
     position: relative;
-   
-    z-index: 1;
 }
 .log:hover{
     transform: scale(1.2);

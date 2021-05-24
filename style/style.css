@@ -14,7 +14,6 @@ body, html {
 body{
      background: #9A1212;
     font-family: 'Jost';
-    z-index: 1;
 }
 .cont{
       position: relative;
