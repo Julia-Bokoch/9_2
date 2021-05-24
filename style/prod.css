@@ -206,7 +206,7 @@ height: 432px;
          margin-left: 500px;
     }
 }
-@media (max-width:1020px){
+@media (max-width:992px){
     .prod{
         margin-right: 150px;
         
@@ -234,7 +234,7 @@ height: 432px;
     }
     
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 769px) {
     .text {
         margin-left: 10px;
         font-size: 20px;
@@ -258,12 +258,15 @@ height: 432px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .log{
         margin-left: 150px;
     }
     .navig li{
         margin: 0 10px;
+    }
+    .navig{
+        margin-right: 10px;
     }
     .prod{
         display: flex;
@@ -275,7 +278,8 @@ height: 432px;
         width: 300px;
     }
     .prod{
-        margin-right: 50px;
+        transform: scale(0.8);
+        margin-right: -30px;
     }
     .inf {
         width: 500px;
@@ -284,7 +288,8 @@ height: 432px;
 
     .image{
         width: 200px;
-        margin-left: 400px;
+        margin-left: 370px;
+        height: 300px;
     }
 
     .vet4 {

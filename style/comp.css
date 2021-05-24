@@ -195,7 +195,7 @@ border-radius: 20px;
         width: 800px;
     }
 }
-@media(max-width:1000px){
+@media(max-width:992px){
     .img{
         transform: scale(0.8);
         margin-left: -100px;
@@ -207,7 +207,7 @@ border-radius: 20px;
         width: 600px;
     }
 }
-@media(max-width:800px){
+@media(max-width:769px){
     .navig{
         margin-right: 50px;
     }
@@ -223,26 +223,24 @@ border-radius: 20px;
         margin-left: -100px;
     }
 }
-@media(max-width:600px){
+@media(max-width:480px){
     .log{
         transform: scale(0.7);
         top: -30px;
-        left: 250px;
+        left: 150px;
     }
     .navig{
-        margin-right: 10px;
+        transform: scale(0.7);
+        margin-right: -30px;
     }
      .img{
-        transform: scale(0.7);
-        margin-left: -150px;
-        z-index: 0;
-        margin-top: -10px;
+        display: none;
     }
      .text{
         margin-top: -70px;
         text-align: center;
         font-size: 18px;
-        width: 500px;
-        margin-left: -190px;
+        width: 450px;
+        margin-left: -260px;
     }
 }
